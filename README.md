@@ -19,9 +19,9 @@ This is a world where the line between reality and the supernatural blurs, leavi
 
 Some of the mysterious, haunted locations are: 
 
-![The Caves](game%2images%2the_caves.png)
+![The Caves](game/images/the_caves.png)
 
-![The Catacombs](game%2images%2Fthe_catacombs.png)
+![The Catacombs](game/images/the_catacombs.png)
 
 # Rules
 

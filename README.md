@@ -19,9 +19,9 @@ This is a world where the line between reality and the supernatural blurs, leavi
 
 Some of the mysterious, haunted locations are: 
 
-![The Caves](images%2Fthe_caves.png)
+![The Caves](game%2images%2the_caves.png)
 
-![The Catacombs](images%2Fthe_catacombs.png)
+![The Catacombs](game%2images%2Fthe_catacombs.png)
 
 # Rules
 
@@ -83,10 +83,6 @@ can't know where the blow is coming from.
    - You need Python installed.
 2. Run `./installers/linux_install.sh` to download the necessary packages.
 3. Run `./installers/linux_play.sh` to play the game.
-
-# Meta progression
-
-We are planning to add meta-progression, but it will depend on our progress on the other aspects of the game. 
 
 # Documentation
 

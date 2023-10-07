@@ -22,6 +22,6 @@ class Trap(Unit):
         super().__init__(
             cellSize=cellSize, worldSize=worldSize, position=position, channel=channel
         )
-        self.image = load("src/Units/sprites/ghost_trap.png")
+        self.image = load("images/ghost_trap.png")
         self.image = scale(self.image, self.cellSize)
         self.is_alive = True

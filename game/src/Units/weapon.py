@@ -76,7 +76,7 @@ class Shot(AnimatedUnit):
             worldSize=worldSize,
             position=position,
             channel=channel,
-            images_folder="src/Units/sprites/shots",
+            images_folder="images/shots",
             images_name="shot",
         )
 
@@ -117,7 +117,7 @@ class Measurement(AnimatedUnit):
             worldSize=worldSize,
             position=position,
             channel=channel,
-            images_folder="src/Units/sprites/measurements",
+            images_folder="images/measurements",
             images_name="measurement",
         )
         self.play_animation = False

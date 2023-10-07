@@ -32,13 +32,13 @@ class CatacombLevel(BaseLevel):
             score_system=score_system,
             difficulty=ghost_parameters.difficulty,
         )
-        self.level_name = "src/Levels/levels/catacombs.tmx"
+        self.level_name = "images/levels/catacombs.tmx"
         self.level_title = "The Catacombs"
         self.level_id = "the_catacombs"
 
-        self.music_path = "src/SoundEffects/sound_effects/suspense.wav"
+        self.music_path = "sound_effects/suspense.wav"
         self.background_sound_path = (
-            "src/SoundEffects/sound_effects/rain_and_thunder.wav"
+            "sound_effects/rain_and_thunder.wav"
         )
 
         self.player_initial_position = Vector2(1, 18)
@@ -71,13 +71,13 @@ class TheMazeLevel(BaseLevel):
             score_system=score_system,
             difficulty=ghost_parameters.difficulty,
         )
-        self.level_name = "src/Levels/levels/the_maze.tmx"
+        self.level_name = "images/levels/the_maze.tmx"
         self.level_title = "The Maze"
         self.level_id = "the_maze"
 
-        self.music_path = "src/SoundEffects/sound_effects/suspense.wav"
+        self.music_path = "sound_effects/suspense.wav"
         self.background_sound_path = (
-            "src/SoundEffects/sound_effects/rain_and_thunder.wav"
+            "sound_effects/rain_and_thunder.wav"
         )
 
         self.player_initial_position = Vector2(1, 10)
@@ -110,13 +110,13 @@ class IntoTheCavesLevel(BaseLevel):
             score_system=score_system,
             difficulty=ghost_parameters.difficulty,
         )
-        self.level_name = "src/Levels/levels/into_the_caves.tmx"
+        self.level_name = "images/levels/into_the_caves.tmx"
         self.level_title = "Into The Caves"
         self.level_id = "into_the_caves"
 
-        self.music_path = "src/SoundEffects/sound_effects/suspense.wav"
+        self.music_path = "sound_effects/suspense.wav"
         self.background_sound_path = (
-            "src/SoundEffects/sound_effects/rain_and_thunder.wav"
+            "sound_effects/rain_and_thunder.wav"
         )
 
         self.player_initial_position = Vector2(2, 2)
@@ -149,13 +149,13 @@ class TheCavesLevel(BaseLevel):
             score_system=score_system,
             difficulty=ghost_parameters.difficulty,
         )
-        self.level_name = "src/Levels/levels/the_caves.tmx"
+        self.level_name = "images/levels/the_caves.tmx"
         self.level_title = "The Caves"
         self.level_id = "the_caves"
 
-        self.music_path = "src/SoundEffects/sound_effects/suspense.wav"
+        self.music_path = "sound_effects/suspense.wav"
         self.background_sound_path = (
-            "src/SoundEffects/sound_effects/rain_and_thunder.wav"
+            "sound_effects/rain_and_thunder.wav"
         )
 
         self.player_initial_position = Vector2(1, 10)

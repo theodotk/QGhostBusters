@@ -23,9 +23,9 @@ class ScreenSoundManager(BaseSoundManager):
 class MenuSoundManager(ScreenSoundManager):
     def __init__(self, channel: Channel = None):
         super().__init__(channel=channel)
-        self.music = "src/SoundEffects/sound_effects/top-down-fantasy-1.ogg"
+        self.music = "sound_effects/top-down-fantasy-1.ogg"
         self.select_menu_item = Sound(
-            "src/SoundEffects/sound_effects/select_menu_item.wav"
+            "sound_effects/select_menu_item.wav"
         )
 
     def play_select_menu_item_sound(self):
@@ -42,9 +42,9 @@ class LevelSoundManager(ScreenSoundManager):
     ):
         super().__init__(channel=channel)
         self.music = music
-        self.load_level = Sound("src/SoundEffects/sound_effects/load_level.wav")
-        self.game_over = Sound("src/SoundEffects/sound_effects/game_over.wav")
-        self.game_won = Sound("src/SoundEffects/sound_effects/game_won.wav")
+        self.load_level = Sound("sound_effects/load_level.wav")
+        self.game_over = Sound("sound_effects/game_over.wav")
+        self.game_won = Sound("sound_effects/game_won.wav")
         self.background_sound = (
             Sound(background_track_path) if background_track_path else None
         )
@@ -68,10 +68,10 @@ class LevelSoundManager(ScreenSoundManager):
 class PlayerSoundManager(BaseSoundManager):
     def __init__(self, channel: Channel = None):
         super().__init__(channel=channel)
-        self.attack_sound = Sound("src/SoundEffects/sound_effects/player_attack.wav")
-        self.measure_sound = Sound("src/SoundEffects/sound_effects/measure.wav")
+        self.attack_sound = Sound("sound_effects/player_attack.wav")
+        self.measure_sound = Sound("sound_effects/measure.wav")
         self.ready_to_measure_sound = Sound(
-            "src/SoundEffects/sound_effects/before_measure_timer_resets.wav"
+            "sound_effects/before_measure_timer_resets.wav"
         )
 
     def play_attack_sound(self):
@@ -87,7 +87,7 @@ class PlayerSoundManager(BaseSoundManager):
 class GhostSoundManager(BaseSoundManager):
     def __init__(self, channel: Channel = None):
         super().__init__(channel=channel)
-        self.attack_sound = Sound("src/SoundEffects/sound_effects/ghost_hit.wav")
+        self.attack_sound = Sound("sound_effects/ghost_hit.wav")
 
     def play_attack_sound(self):
         self.channel.queue(self.attack_sound)

@@ -79,9 +79,9 @@ class MeasureTimer:
 class LifeHeart(Sprite):
     def __init__(self, position: Vector2 = None, cellSize: Vector2 = None):
         super().__init__()
-        self.full_heart_image = load("src/Levels/sprites/life_heart_full.png")
+        self.full_heart_image = load("images/sprites/life_heart_full.png")
         self.full_heart_image = scale(self.full_heart_image, cellSize)
-        self.empty_heart_image = load("src/Levels/sprites/life_heart_empty.png")
+        self.empty_heart_image = load("images/sprites/life_heart_empty.png")
         self.empty_heart_image = scale(self.empty_heart_image, cellSize)
         self.image = self.full_heart_image
         self.has_health = True

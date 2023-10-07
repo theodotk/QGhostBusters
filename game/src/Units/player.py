@@ -42,7 +42,7 @@ class Player(Unit):
             cellSize=cellSize, worldSize=worldSize, position=position, channel=channel
         )
         # visual variables
-        self.image = load("src/Units/sprites/character.png")
+        self.image = load("images/character.png")
         self.image = scale(self.image, self.cellSize)
         self.direction: Vector2 = Vector2(1, 0)
         self.sound_manager = PlayerSoundManager(channel=self.channel)

@@ -36,10 +36,10 @@ class BaseMenu:
         # Font
         self.titleFont = pygame.font.Font("fonts/Baskic8.otf", 72)
         self.itemFont = pygame.font.Font("fonts/Baskic8.otf", 48)
-        self.menuCursor = pygame.image.load("src/Units/sprites/ghost.png")
+        self.menuCursor = pygame.image.load("images/ghost.png")
         self.menuCursor = scale(self.menuCursor, Vector2(48, 48))
 
-        self.background = load("src/Menus/backgrounds/space1_bit.png")
+        self.background = load("images/backgrounds/space1_bit.png")
 
         self.user_interface: MenuUserInterface = None
 
